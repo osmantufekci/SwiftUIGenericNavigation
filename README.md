@@ -29,7 +29,7 @@ struct ContentView: View {
             // Your starting view
             FirstView()
               .navigationDestination(for: NavigationView<AnyView>.self) { destination in
-                    destination.content
+                    destination
                 }
         }
       .environmentObject(navigationManager)
