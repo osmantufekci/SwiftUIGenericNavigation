@@ -1,4 +1,4 @@
-# Morphogram Navigation
+# SwiftUI Navigation
 
 This project provides a customizable navigation solution for SwiftUI applications.  Using the `NavigationManager` class and the `NavigationView` struct, you can easily navigate between pages, add custom back buttons, and control the navigation path.
 
