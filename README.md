@@ -28,10 +28,10 @@ struct ContentView: View {
         NavigationStack(path: $navigationManager.path) {
             // Your starting view
             FirstView()
+              .environmentObject(navigationManager)
               .navigationDestination(for: NavigationView<AnyView>.self) { destination in
                     destination
                 }
         }
-      .environmentObject(navigationManager)
     }
 }
